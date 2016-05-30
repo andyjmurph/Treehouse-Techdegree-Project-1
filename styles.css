@@ -99,7 +99,7 @@ header .profile-image:hover {
   border-radius: 2.5px;
 }
 .card {
-  margin: 30px;
+  margin: 30px auto;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -189,16 +189,19 @@ a.social:hover {
   clear: both;
 }
 
-/* Experience Section Styles */
 
-.role h4 {
+
+/* Styles for screens greater than 420px */
+@media screen and (min-width: 420px) {
+  
+  .role h4 {
   float: left;
 }
 .role h6 {
   float: right;
 }
-
-
+  
+}
 
 
 /* Styles for larger screens */
@@ -235,6 +238,10 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+  
+  .card {
+    margin:30px;
   }
 
 }
