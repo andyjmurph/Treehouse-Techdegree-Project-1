@@ -101,7 +101,7 @@ header .profile-image:hover {
 .card {
   margin: 30px auto;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 90%;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -242,6 +242,7 @@ a.social:hover {
   
   .card {
     margin:30px;
+    max-width: 500px;
   }
 
 }
